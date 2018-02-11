@@ -8,9 +8,8 @@ I wont finish this in 2.5 hours but I want to create the calendar - just to do i
 */
 
 //Create a calendar object when submit is clicked
-var calendarTemplate = "<p>helloworld</p>";
-
 $('.btn-submit').click(function() {
+	$('.calTemplate').show();
 	var make = new Calendar('test', 10, 'US');
 	make.showCalendar();
 	$('#results').html(calendarTemplate);
@@ -27,4 +26,13 @@ var Calendar = function(startdate, numdays, countrycode) {
 
 Calendar.prototype.showCalendar = function() {
 	console.log('show calendar');
+	calendarTemplate(10);
 };
+
+function calendarTemplate(numdays) {
+	var template = "";
+	var calendarHTML = "";
+
+	return calendarHTML;
+
+}

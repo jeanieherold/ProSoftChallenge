@@ -64,7 +64,7 @@ h3 {
 		CALENDAR TABLE STYLES
 =========================================== */
 
-#month {
+.month {
 	background: linear-gradient(#eef6da, #ffe);
 }
 
@@ -74,9 +74,10 @@ h3 {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-#calTemplate {
+.calTemplate {
 	border: 1px solid #008000;
 	margin-top: 50px;
+	display: none;
 }
 
 .day-char {
