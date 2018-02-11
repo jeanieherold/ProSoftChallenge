@@ -12,9 +12,8 @@
 
     <body>
     	<div id="wrapper">
-    		<div class="container">
+    		<div id="formFields" class="container">
     			<h3>ProSoft Calendar Challenge</h3>
-
 					<form id="userInput">
 					  <label>Start Date:</label>
 					  <input class="user-specs" type="text" name="startdate" placeholder="i.e.: 8/15/2008">
@@ -27,12 +26,70 @@
 					  <br/>
 					  <input class="btn-submit" type="submit" value="Submit">
 					</form> 
-    		</div>
+    		</div><!-- end forms container -->
+    		<!-- calendar area -->
+    		<div id="calendar" class="container">
+    			<div id="results"></div>
+
+    			<!-- building a simple calendar -->
+    			<table id="calTemplate">
+    				<caption>January 2018</caption>
+    				<tr>
+    					<th class="day-char">S</th>
+    					<th class="day-char">M</th>
+    					<th class="day-char">T</th>
+    					<th class="day-char">W</th>
+    					<th class="day-char">T</th>
+    					<th class="day-char">F</th>
+    					<th class="day-char">S</th>
+    				</tr>
+    				<tr>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    				</tr>
+    				<tr>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    				</tr>
+    				<tr>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    				</tr>
+    				<tr>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    					<td class="day-cell"></td>
+    				</tr>
+    			</table>
+
+    		</div><!--end calendar container-->
+
+
 			</div>
 			<script
 			  src="http://code.jquery.com/jquery-3.3.1.min.js"
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			  crossorigin="anonymous"></script>
+			<script type="text/javascript" src="moment.js"></script>
       <script src="js/scripts.js"></script>        
     </body>
 </html>

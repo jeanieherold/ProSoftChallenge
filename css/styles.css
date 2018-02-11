@@ -60,6 +60,27 @@ h3 {
 	font-size: 1em;
 }
 
+/* ========================================
+		CALENDAR TABLE STYLES
+=========================================== */
+
+caption {
+	background: #eef6da;
+	padding: 5px 0;
+	border: 1px solid #008000;
+}
+
+#calTemplate {
+	border: 1px solid #008000;
+	margin-top: 50px;
+}
+
+.day-cell {
+	padding: 25px;
+	border: 1px solid #eaeaea;
+	background: #ccc;
+}
+
 
 
 

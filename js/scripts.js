@@ -7,3 +7,9 @@ Create a calendar from user input according to the guidelines provided in docume
 I wont finish this in 2.5 hours but I want to create the calendar - just to do it. 
 */
 
+var calendarTemplate = "<p>helloworld</p>";
+
+$('.btn-submit').click(function() {
+	$('#results').html(calendarTemplate);
+	return false;
+});
