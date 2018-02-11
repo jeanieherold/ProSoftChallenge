@@ -33,8 +33,7 @@
 
     			<!-- building a simple calendar -->
     			<table id="calTemplate">
-    				<caption>January 2018</caption>
-    				<tr>
+    				<thead>
     					<th class="day-char">S</th>
     					<th class="day-char">M</th>
     					<th class="day-char">T</th>
@@ -42,7 +41,10 @@
     					<th class="day-char">T</th>
     					<th class="day-char">F</th>
     					<th class="day-char">S</th>
-    				</tr>
+    				</thead>
+                    <tr id="month">
+                        <td class="month-name" colspan="7">January 2018</td>
+                    </tr>
     				<tr>
     					<td class="day-cell"></td>
     					<td class="day-cell"></td>
@@ -89,7 +91,7 @@
 			  src="http://code.jquery.com/jquery-3.3.1.min.js"
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			  crossorigin="anonymous"></script>
-			<script type="text/javascript" src="moment.js"></script>
+			<script type="text/javascript" src="js/moment.js"></script>
       <script src="js/scripts.js"></script>        
     </body>
 </html>
