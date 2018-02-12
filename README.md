@@ -2,7 +2,8 @@
 
 Continued coding
 
-link to GitHubPages for this repo:
+link to GitHubPages for ProSoftChallenge repo
+https://jeanieherold.github.io/ProSoftChallenge/
 
 Note: I wont finish this in 2.5 hours but I want to do the task anyway. I know it says you wont finish but it will take me more time to think it through. Passing is not my goal. I just want to see it working.. ~jeanie herold
 
